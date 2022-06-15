@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +11,32 @@ html {
 }
 
 body {
-  background-color: #e45324;
+  font-family: 'Noto Sans', sans-serif;
+  /* background-image: url('../assets/images/bg.jpg');
+  background-repeat: no-repeat;
+  /* background-position: center center; 
+  background-size: cover; */
+  background: url('../assets/images/bg.jpg') no-repeat center/cover;
+
+  height: 100vh;
 }
 
+/* .container {
+  width: 80%;
+  height: 500px;
+  background-color: #fff;
+} */
+
+/* .box {
+  width: 80%;
+  height: 200px;
+  background-color: #333333;
+} */
+
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+}
 /* color names */
 
 /* HEX, RGBA*/
@@ -19,3 +44,21 @@ body {
 /* RGB - Red, Green, Blue 2^24 A - alpha, help us to dilute 0 -100  */
 
 /* HEX - 0-9, A,B,C,D,E,F - 6 Places 2^24 */
+
+/* background, units */
+
+/* bg-color, bg-image, bg-repeat, bg-position, bg-attachment, bg */
+
+/* CSS Units */
+
+/* Absolute, relative */
+
+/* Abs - cm, m, in, pt, px(pixel)  */
+
+/* Relative - % width property, height: */
+
+/* Relative - vh, vw */
+
+/* Relative - rem */
+
+/* CSS Fonts */
