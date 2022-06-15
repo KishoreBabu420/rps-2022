@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #e45324;
+}
+
+/* color names */
+
+/* HEX, RGBA*/
+
+/* RGB - Red, Green, Blue 2^24 A - alpha, help us to dilute 0 -100  */
+
+/* HEX - 0-9, A,B,C,D,E,F - 6 Places 2^24 */
