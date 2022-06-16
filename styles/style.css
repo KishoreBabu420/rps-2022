@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 html {
@@ -12,5 +13,79 @@ html {
 
 body {
   font-family: 'Noto Sans', sans-serif;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
+  color: rgb(12, 116, 117);
   height: 100vh;
 }
+/* Default CSS */
+
+/* Global CSS  */
+img {
+  width: 100%;
+  height: auto;
+  /* Post CSS */
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.container {
+  min-width: 30rem;
+  width: 45%;
+  margin: 5rem auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  min-height: 30rem;
+}
+
+.title-container {
+  min-height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.main-title {
+  width: 48%;
+  float: left;
+}
+
+.scores {
+  width: 48%;
+  float: right;
+}
+
+.main-title .title {
+  font-size: 2rem;
+}
+
+.scores .score {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.scores .score span {
+  font-weight: 900;
+}
+
+.weapons-container {
+  min-height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.btn-weapon {
+  display: inline-block;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  background-color: rgba(14, 174, 87);
+  border: 3px solid rgba(12, 116, 117, 1);
+  cursor: pointer;
+}
+
+/* Padding/margin - 1, 2, 3, 4,  */
+
+/* border: 2px solid */
